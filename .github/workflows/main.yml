@@ -56,8 +56,11 @@ jobs:
           echo "======================="
           cd openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64
           du -h --max-depth=1 ./bin
+          pwd
       - name: Prepare artifact
         run: |
+          pwd
+          cd openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64
           mkdir -p ./artifact/firmware
           mkdir -p ./artifact/buildinfo
           cp -rf $(find ./bin/targets/ -type f) ./artifact/firmware/
@@ -66,19 +69,19 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: OpenWrt_buildinfo
-          path: ./artifact/buildinfo/
+          path: ./openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64/artifact/buildinfo/
 
       - name: Deliver firmware
         uses: actions/upload-artifact@v2
         with:
           name: OpenWrt_firmware
-          path: ./bin/targets/
+          path: ./openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64/bin/targets/
 
       - name: Upload release asset
         if: github.event == 'release'
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.YOURTOKEN }}
-          file: ./artifact/firmware/*
+          file: ./openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64/artifact/firmware/*
           tag: ${{ github.ref }}
           file_glob: true
