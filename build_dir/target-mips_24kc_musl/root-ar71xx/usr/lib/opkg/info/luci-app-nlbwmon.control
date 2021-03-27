@@ -1,8 +1,0 @@
-Package: luci-app-nlbwmon
-Version: git-20.356.64372-1259bb1-1
-Depends: libc, nlbwmon
-Source: feeds/luci/applications/luci-app-nlbwmon
-Section: luci
-Architecture: all
-Installed-Size: 21710
-Description:  Netlink based bandwidth accounting

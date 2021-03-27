@@ -1,6 +1,0 @@
-/lib/modules/4.9.243/xt_connbytes.ko
-/etc/modules.d/ipt-conntrack-extra
-/lib/modules/4.9.243/xt_helper.ko
-/lib/modules/4.9.243/xt_recent.ko
-/lib/modules/4.9.243/xt_connlimit.ko
-/lib/modules/4.9.243/xt_connmark.ko

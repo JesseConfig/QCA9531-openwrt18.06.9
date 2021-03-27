@@ -1,2 +1,0 @@
-/etc/modules-boot.d/60-leds-gpio
-/etc/modules.d/60-leds-gpio

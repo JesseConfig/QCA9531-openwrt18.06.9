@@ -1,3 +1,0 @@
-/etc/modules.d/09-crypto-manager
-/etc/modules-boot.d/09-crypto-manager
-/lib/modules/4.9.243/cryptomgr.ko

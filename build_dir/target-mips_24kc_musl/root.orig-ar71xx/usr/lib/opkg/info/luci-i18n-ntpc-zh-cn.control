@@ -1,8 +1,0 @@
-Package: luci-i18n-ntpc-zh-cn
-Version: git-20.356.64372-1259bb1-1
-Depends: libc, luci-app-ntpc
-Source: feeds/luci/applications/luci-app-ntpc
-Section: luci
-Architecture: all
-Installed-Size: 711
-Description:  Translation for luci-app-ntpc - 中文 (Chinese)

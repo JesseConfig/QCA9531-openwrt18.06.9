@@ -1,1 +1,0 @@
-uci set luci.languages.zh_cn='中文 (Chinese)'; uci commit luci

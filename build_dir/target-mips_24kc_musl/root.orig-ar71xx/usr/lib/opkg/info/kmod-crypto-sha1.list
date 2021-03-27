@@ -1,2 +1,0 @@
-/etc/modules.d/09-crypto-sha1
-/lib/modules/4.9.243/sha1_generic.ko

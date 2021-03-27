@@ -1,5 +1,0 @@
-/usr/sbin/nlbw
-/etc/config/nlbwmon
-/usr/share/nlbwmon/protocols
-/etc/init.d/nlbwmon
-/usr/sbin/nlbwmon

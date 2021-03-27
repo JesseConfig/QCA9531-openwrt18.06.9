@@ -1,8 +1,0 @@
-Package: luci-i18n-wol-zh-cn
-Version: git-20.356.64372-1259bb1-1
-Depends: libc, luci-app-wol
-Source: feeds/luci/applications/luci-app-wol
-Section: luci
-Architecture: all
-Installed-Size: 837
-Description:  Translation for luci-app-wol - 中文 (Chinese)
