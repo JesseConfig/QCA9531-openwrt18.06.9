@@ -54,6 +54,7 @@ jobs:
           echo "======================="
           df -h
           echo "======================="
+          cd imagebuilder
           du -h --max-depth=1 ./bin
       - name: Prepare artifact
         run: |
