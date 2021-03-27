@@ -54,7 +54,7 @@ jobs:
           echo "======================="
           df -h
           echo "======================="
-          cd imagebuilder
+          cd openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64
           du -h --max-depth=1 ./bin
       - name: Prepare artifact
         run: |
