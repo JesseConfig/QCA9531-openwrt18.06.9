@@ -10,4 +10,4 @@ cd QCA9531-openwrt18.06.9
 
 [点击下载](https://downloads.openwrt.org/releases/18.06.9/targets/ar71xx/generic/openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64.tar.xz）
 
-非请勿用，谢谢！
+此仓库请勿直接使用，谢谢！
