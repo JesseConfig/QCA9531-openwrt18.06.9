@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 /imagebuilder
 *.xz
+=======
+##
+#
+/bin
+/build_dir
+/tmp
+>>>>>>> 993f55078d2f187d2ae78f766c844c5bf6ac2c8f
