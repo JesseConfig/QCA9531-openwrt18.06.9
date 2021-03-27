@@ -1,0 +1,10 @@
+Package: relayd
+Version: 2020-04-25-f4d759be-1
+Depends: libc, libubox
+Source: feeds/base/package/network/services/relayd
+License: GPL-2.0
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_24kc
+Installed-Size: 9018
+Description:  Transparent routing / relay daemon

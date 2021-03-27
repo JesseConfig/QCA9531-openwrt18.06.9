@@ -1,0 +1,2 @@
+/lib/modules/4.9.243/hmac.ko
+/etc/modules.d/09-crypto-hmac

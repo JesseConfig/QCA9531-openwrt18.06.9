@@ -1,0 +1,2 @@
+/etc/modules.d/nfnetlink-queue
+/lib/modules/4.9.243/nfnetlink_queue.ko

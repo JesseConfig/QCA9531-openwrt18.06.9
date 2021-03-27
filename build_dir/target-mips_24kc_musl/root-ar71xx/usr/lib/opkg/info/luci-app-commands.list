@@ -1,0 +1,4 @@
+/usr/lib/lua/luci/view/commands_public.htm
+/usr/lib/lua/luci/model/cbi/commands.lua
+/usr/lib/lua/luci/controller/commands.lua
+/usr/lib/lua/luci/view/commands.htm

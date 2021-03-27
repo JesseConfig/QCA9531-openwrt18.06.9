@@ -1,0 +1,4 @@
+/etc/mcproxy.conf
+/etc/config/mcproxy
+/etc/init.d/mcproxy
+/usr/sbin/mcproxy

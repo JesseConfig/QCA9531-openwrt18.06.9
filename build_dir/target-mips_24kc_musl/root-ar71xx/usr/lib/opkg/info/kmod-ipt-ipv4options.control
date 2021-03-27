@@ -1,0 +1,10 @@
+Package: kmod-ipt-ipv4options
+Version: 4.9.243+2.14-4
+Depends: kernel (=4.9.243-1-2b8f9dfe583e5c09aadd9474da55137f), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+License: GPL-2.0
+Section: kernel
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 917
+Description:  ipv4options netfilter module

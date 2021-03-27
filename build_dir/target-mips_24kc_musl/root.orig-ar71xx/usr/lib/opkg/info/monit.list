@@ -1,0 +1,3 @@
+/etc/init.d/monit
+/usr/bin/monit
+/etc/monitrc

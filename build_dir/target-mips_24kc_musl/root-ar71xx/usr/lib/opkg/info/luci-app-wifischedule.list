@@ -1,0 +1,3 @@
+/usr/lib/lua/luci/view/wifischedule/file_viewer.htm
+/usr/lib/lua/luci/controller/wifischedule/wifi_schedule.lua
+/usr/lib/lua/luci/model/cbi/wifischedule/wifi_schedule.lua

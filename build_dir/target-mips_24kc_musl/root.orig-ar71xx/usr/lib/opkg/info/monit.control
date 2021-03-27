@@ -1,0 +1,12 @@
+Package: monit
+Version: 5.24.0-1
+Depends: libc, libpthread, zlib, libopenssl
+Source: feeds/packages/admin/monit
+License: AGPL-3.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 232390
+Description:  An utility for monitoring services on a Unix system
+ This package is built with SSL support.

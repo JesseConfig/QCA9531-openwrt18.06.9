@@ -1,0 +1,8 @@
+Package: luci-i18n-wifischedule-zh-cn
+Version: git-20.356.64372-1259bb1-1
+Depends: libc, luci-app-wifischedule
+Source: feeds/luci/applications/luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 1223
+Description:  Translation for luci-app-wifischedule - 中文 (Chinese)

@@ -1,0 +1,10 @@
+Package: libuci
+Version: 2019-05-17-f199b961-2
+Depends: libc, libubox
+Source: feeds/base/package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_24kc
+Installed-Size: 14810
+Description:  C library for the Unified Configuration Interface (UCI)

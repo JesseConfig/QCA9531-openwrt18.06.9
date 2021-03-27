@@ -1,0 +1,4 @@
+[ -n "${IPKG_INSTROOT}" ] || {
+	(. /etc/uci-defaults/40_luci-miniupnp) && rm -f /etc/uci-defaults/40_luci-miniupnp
+	exit 0
+}

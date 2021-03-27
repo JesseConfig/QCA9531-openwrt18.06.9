@@ -1,0 +1,9 @@
+Package: kmod-lib-crc16
+Version: 4.9.243-1
+Depends: kernel (=4.9.243-1-2b8f9dfe583e5c09aadd9474da55137f)
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mips_24kc
+Installed-Size: 1270
+Description:  Kernel module for CRC16 support

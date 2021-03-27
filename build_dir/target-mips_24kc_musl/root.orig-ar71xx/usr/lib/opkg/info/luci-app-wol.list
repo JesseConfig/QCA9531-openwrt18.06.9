@@ -1,0 +1,2 @@
+/usr/lib/lua/luci/model/cbi/wol.lua
+/usr/lib/lua/luci/controller/wol.lua

@@ -1,0 +1,8 @@
+Package: luci-app-wifischedule
+Version: git-20.356.64372-1259bb1-1
+Depends: libc, wifischedule
+Source: feeds/luci/applications/luci-app-wifischedule
+Section: luci
+Architecture: all
+Installed-Size: 3129
+Description:  Turns WiFi on and off according to a schedule

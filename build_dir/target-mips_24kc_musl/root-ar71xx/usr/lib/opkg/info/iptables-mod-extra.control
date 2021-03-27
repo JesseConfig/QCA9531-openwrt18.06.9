@@ -1,0 +1,17 @@
+Package: iptables-mod-extra
+Version: 1.6.2-3
+Depends: libc, iptables, kmod-ipt-extra
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Installed-Size: 7393
+Description:  Other extra iptables extensions.
+ 
+ Matches:
+ - addrtype
+ - condition
+ - owner
+ - pkttype
+ - quota
+ 

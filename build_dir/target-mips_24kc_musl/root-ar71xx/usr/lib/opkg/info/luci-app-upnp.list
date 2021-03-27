@@ -1,0 +1,5 @@
+/usr/lib/lua/luci/model/cbi/upnp/upnp.lua
+/usr/lib/lua/luci/view/admin_status/index/upnp.htm
+/usr/lib/lua/luci/view/upnp_status.htm
+/usr/lib/lua/luci/controller/upnp.lua
+/etc/uci-defaults/40_luci-miniupnp

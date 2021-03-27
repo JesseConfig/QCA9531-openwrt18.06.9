@@ -1,0 +1,7 @@
+/usr/lib/libhttpd.so.0.0.0
+/usr/bin/wifidog
+/etc/init.d/wifidog
+/usr/lib/libhttpd.so.0
+/usr/bin/wdctl
+/etc/wifidog-msg.html
+/etc/wifidog.conf

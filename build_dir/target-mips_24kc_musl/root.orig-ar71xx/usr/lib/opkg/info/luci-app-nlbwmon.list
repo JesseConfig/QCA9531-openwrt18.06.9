@@ -1,0 +1,6 @@
+/usr/lib/lua/luci/view/nlbw/display.htm
+/usr/lib/lua/luci/controller/nlbw.lua
+/usr/lib/lua/luci/view/nlbw/backup.htm
+/usr/lib/lua/luci/model/cbi/nlbw/config.lua
+/etc/uci-defaults/40_luci-nlbwmon
+/www/luci-static/resources/nlbw.chart.min.js
