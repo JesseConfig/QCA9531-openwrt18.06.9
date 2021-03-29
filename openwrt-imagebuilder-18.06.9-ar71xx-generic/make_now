@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# https://github.com/JesseConfig/LedeTomeXiaoyuC5/tree/Test
+# https://downloads.openwrt.org/releases/18.06.9/targets/ar71xx/generic/
+# https://downloads.openwrt.org/releases/18.06.9/targets/ar71xx/generic/openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64.tar.xz
+
+
+wget -O imagebuilder.tar.xz https://downloads.openwrt.org/releases/18.06.9/targets/ar71xx/generic/openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64.tar.xz 
+tar xvJf imagebuilder.tar.xz
+cd openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64
+
+
+make image PROFILE=AP147_010 PACKAGES="-kmod-usb-core -kmod-usb-storage -kmod-usb2 -dnsmasq dnsmasq-full -odhcpd-ipv6only \
+pppossh xl2tpd ppp-mod-pppoa ppp-mod-pptp hnet-full 6rd 6to4 6in4 464xlat map-t ds-lite luci-theme-material luci-i18n-ntpc-zh-cn luci-i18n-tinyproxy-zh-cn nodogsplash zerotier luci luci-app-upnp luci-i18n-upnp-zh-cn luci-app-commands  luci-app-firewall luci-app-nlbwmon luci-app-ntpc luci-app-wifischedule luci-app-wol luci-base luci luci-i18n-base-zh-cn luci-i18n-commands-zh-cn luci-i18n-firewall-zh-cn luci-i18n-nlbwmon-zh-cn luci-i18n-ntpc-zh-cn luci-i18n-wifischedule-zh-cn luci-i18n-wol-zh-cn luci-mod-admin-full luci-mod-rpc luci-proto-ipv6 luci-proto-ppp luci-proto-relay luci-app-uhttpd luci-i18n-uhttpd-zh-cn iperf3 kmod-swconfig kmod-nls-cp437 kmod-nls-cp936 kmod-nls-iso8859-1 kmod-nls-utf8 kmod-ppp kmod-pppoe kmod-pptp"
+
+
+# make image PROFILE=AP147_010 PACKAGES="-kmod-usb-core -kmod-usb-storage -kmod-usb2 -dnsmasq dnsmasq-full \
+# ca-bundle curl  etherwake fwtool hostapd-common ip-full iptables-mod-extra iptables-mod-filter iptables-mod-ipmark iptables-mod-ipopt iptables-mod-iprange iptables-mod-nat-extra iw iwinfo jshn jsonfilter kmod-arptables kmod-ath kmod-ath9k-common kmod-bonding kmod-button-hotplug kmod-crypto-aead kmod-crypto-crc32c kmod-crypto-des kmod-crypto-ecb kmod-crypto-hash kmod-crypto-hmac kmod-crypto-manager kmod-crypto-md4 kmod-crypto-md5 kmod-crypto-null kmod-crypto-pcompress kmod-crypto-sha1 kmod-crypto-sha256 kmod-ebtables kmod-ebtables-ipv4 kmod-ebtables-watchers kmod-fuse kmod-gre kmod-ifb kmod-input-core kmod-ip6tables kmod-ipt-account kmod-ipt-compat-xtables kmod-ipt-conntrack kmod-ipt-conntrack-extra kmod-ipt-core kmod-ipt-extra kmod-ipt-filter kmod-ipt-ipmark kmod-ipt-ipopt kmod-ipt-iprange kmod-ipt-ipset kmod-ipt-ipv4options kmod-ipt-logmark kmod-ipt-nat kmod-ipt-nat-extra kmod-ipt-u32 kmod-iptunnel kmod-leds-gpio  kmod-ledtrig-netdev kmod-ledtrig-gpio kmod-lib-crc-ccitt kmod-lib-crc16 kmod-lib-textsearch kmod-mac80211 kmod-nf-conntrack kmod-nf-conntrack-netlink kmod-nf-conntrack6 kmod-nf-ipt kmod-nf-ipt6 kmod-nf-nat kmod-nf-reject kmod-nf-reject6 kmod-nfnetlink kmod-nfnetlink-log kmod-nfnetlink-queue kmod-nls-base kmod-nls-cp437 kmod-nls-cp936 kmod-nls-iso8859-1 kmod-nls-utf8 kmod-ppp kmod-pppoe kmod-pptp kmod-sched-connmark kmod-sched-core kmod-scsi-core kmod-slhc libblobmsg-json libcurl libgmp libip4tc libip6tc libiwinfo libiwinfo-lua libjson-c libjson-script liblua liblucihttp liblucihttp-lua libmbedtls libmnl libnetfilter-conntrack libnettle libnfnetlink libnl-tiny libopenssl libpcap libpthread librt libstdcpp libubox libubus libubus-lua libuci libuclient libuuid libxtables lua luci-app-commands luci-app-diag-core luci-app-firewall luci-app-nlbwmon luci-app-ntpc luci-app-wifischedule luci-app-wol luci-base luci luci-i18n-base-zh-cn luci-i18n-commands-zh-cn luci-i18n-diag-core-zh-cn luci-i18n-firewall-zh-cn luci-i18n-nlbwmon-zh-cn luci-i18n-ntpc-zh-cn luci-i18n-wifischedule-zh-cn luci-i18n-wol-zh-cn luci-lib-ip luci-lib-json luci-lib-jsonc luci-lib-nixio luci-mod-admin-full luci-mod-rpc luci-proto-ipv6 luci-proto-ppp luci-proto-relay  mcproxy  monit nlbwmon ntpclient procd relayd rpcd rpcd-mod-rrdns kmod-swconfig tc tcpdump ubox ubus ubusd uclibcxx uhttpd usign wifischedule wireless-regdb wireless-tools zlib iperf3 luci-app-uhttpd luci-i18n-uhttpd-zh-cn luci-compat luci-lib-httpprotoutils luci-lib-ip luci-lib-jsonc luci-lib-nixio terminfo luci-app-upnp luci-i18n-upnp-zh-cn"
+
+
+# base-files busybox dnsmasq dropbear firewall fstools ip6tables iptables kernel kmod-ath9k kmod-gpio-button-hotplug kmod-usb-core kmod-usb-storage kmod-usb2 libc libgcc logd mtd netifd odhcp6c odhcpd-ipv6only opkg ppp ppp-mod-pppoe swconfig uboot-envtools uci uclient-fetch wpad-mini
