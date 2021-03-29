@@ -11,8 +11,7 @@ cd openwrt-imagebuilder-18.06.9-ar71xx-generic.Linux-x86_64
 
 
 make image PROFILE=AP147_010 PACKAGES="-kmod-usb-core -kmod-usb-storage -kmod-usb2 -dnsmasq dnsmasq-full \
-pppossh xl2tpd ppp-mod-pppoa ppp-mod-pptp hnet-full 6rd 6to4 6in4 464xlat map-t ds-lite luci-theme-material luci-i18n-ntpc-zh-cn luci-i18n-tinyproxy-zh-cn nodogsplash zerotier\
-luci luci-app-upnp luci-i18n-upnp-zh-cn luci-app-commands  luci-app-firewall luci-app-nlbwmon luci-app-ntpc luci-app-wifischedule luci-app-wol luci-base luci luci-i18n-base-zh-cn luci-i18n-commands-zh-cn luci-i18n-firewall-zh-cn luci-i18n-nlbwmon-zh-cn luci-i18n-ntpc-zh-cn luci-i18n-wifischedule-zh-cn luci-i18n-wol-zh-cn luci-mod-admin-full luci-mod-rpc luci-proto-ipv6 luci-proto-ppp luci-proto-relay luci-app-uhttpd luci-i18n-uhttpd-zh-cn iperf3 kmod-swconfig kmod-nls-cp437 kmod-nls-cp936 kmod-nls-iso8859-1 kmod-nls-utf8 kmod-ppp kmod-pppoe kmod-pptp"
+pppossh xl2tpd ppp-mod-pppoa ppp-mod-pptp hnet-full 6rd 6to4 6in4 464xlat map-t ds-lite luci-theme-material luci-i18n-ntpc-zh-cn luci-i18n-tinyproxy-zh-cn nodogsplash zerotier luci luci-app-upnp luci-i18n-upnp-zh-cn luci-app-commands  luci-app-firewall luci-app-nlbwmon luci-app-ntpc luci-app-wifischedule luci-app-wol luci-base luci luci-i18n-base-zh-cn luci-i18n-commands-zh-cn luci-i18n-firewall-zh-cn luci-i18n-nlbwmon-zh-cn luci-i18n-ntpc-zh-cn luci-i18n-wifischedule-zh-cn luci-i18n-wol-zh-cn luci-mod-admin-full luci-mod-rpc luci-proto-ipv6 luci-proto-ppp luci-proto-relay luci-app-uhttpd luci-i18n-uhttpd-zh-cn iperf3 kmod-swconfig kmod-nls-cp437 kmod-nls-cp936 kmod-nls-iso8859-1 kmod-nls-utf8 kmod-ppp kmod-pppoe kmod-pptp"
 
 
 # make image PROFILE=AP147_010 PACKAGES="-kmod-usb-core -kmod-usb-storage -kmod-usb2 -dnsmasq dnsmasq-full \
