@@ -20,7 +20,7 @@
 /openwrt-sdk-18.06.9-ar71xx-generic/package/openwrt-packages
 /openwrt-sdk-18.06.9-ar71xx-generic/build_dir
 /openwrt-sdk-18.06.9-ar71xx-generic/staging_dir
-/openwrt-sdk-18.06.9-ar71xx-genericstaging_dir/tmp
+openwrt-sdk-18.06.9-ar71xx-generic/tmp/
 
 *.o
 .DS_Store
