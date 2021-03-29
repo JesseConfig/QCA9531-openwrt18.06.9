@@ -1,0 +1,17 @@
+.
+..
+build_dir
+Config-build.in
+Config.in
+dl
+feeds.conf.default
+include
+LICENSE
+Makefile
+package
+prepare.mk
+README.SDK
+rules.mk
+scripts
+staging_dir
+target

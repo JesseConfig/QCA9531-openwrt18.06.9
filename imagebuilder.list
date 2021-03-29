@@ -1,0 +1,14 @@
+.
+..
+build_dir
+.config
+include
+Makefile
+.packageinfo
+packages
+repositories.conf
+rules.mk
+scripts
+staging_dir
+target
+.targetinfo
