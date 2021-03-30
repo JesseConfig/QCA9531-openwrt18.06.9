@@ -1,0 +1,14 @@
+menu "Configuration_1.6.2"
+	depends on PACKAGE_zerotier
+
+config ZEROTIER_1.6.2_ENABLE_DEBUG
+	bool "Build in debug mode"
+	depends on PACKAGE_zerotier
+	default n
+
+config ZEROTIER_1.6.2_ENABLE_SELFTEST
+	bool "Build a self test program"
+	depends on PACKAGE_zerotier
+	default n
+
+endmenu
