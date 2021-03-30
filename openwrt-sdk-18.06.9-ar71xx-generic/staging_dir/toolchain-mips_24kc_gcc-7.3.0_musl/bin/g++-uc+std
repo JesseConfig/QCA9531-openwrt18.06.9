@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-WRAPPER_LIBDIR="${WRAPPER_LIBDIR:=-L${STAGING_DIR:-/builder/shared-workdir/build/staging_dir/target-mips_24kc_musl}/lib/}"
+WRAPPER_LIBDIR="${WRAPPER_LIBDIR:=-L${STAGING_DIR:-/home/pi/Qca953x/QCA953x-Openwrt-18.06.9/openwrt-sdk-18.06.9-ar71xx-generic/staging_dir/target-mips_24kc_musl}/lib/}"
 
 WRAPPER_OPTIONS=""
 WRAPPER_LIBS="-lc -lgcc_s -lssp_nonshared "

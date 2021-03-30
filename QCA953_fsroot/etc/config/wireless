@@ -1,0 +1,17 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option channel '11'
+	option hwmode '11g'
+	option path 'platform/qca953x_wmac'
+	option htmode 'HT20'
+	option country 'DE'
+	option legacy_rates '1'
+
+config wifi-iface 'default_radio0'
+	option device 'radio0'
+	option mode 'ap'
+	option ssid 'QCA953X'
+	option encryption 'none'
+	option network 'wlan'
+
