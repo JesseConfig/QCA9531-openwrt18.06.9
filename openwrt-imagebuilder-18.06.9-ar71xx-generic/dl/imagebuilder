@@ -1,3 +1,15 @@
+Package: appfilter
+Version: 5.0-1
+Depends: libc, libubox, libubus, libuci, libpthread, libjson-c, libblobmsg-json
+Source: feeds/OpenAppFilter/open-app-filter
+Section: Derry Apps
+Architecture: mips_24kc
+Installed-Size: 13208
+Filename: appfilter_5.0-1_mips_24kc.ipk
+Size: 13906
+SHA256sum: cf4fa1ee457b40783ce15faadeb3f7ddb3c4691d4ed0c8b440c464c78c9ba680
+Description:  open appfilter app
+
 Package: kmod-3c59x
 Version: 4.9.243-1
 Depends: kernel (=4.9.243-1-2b8f9dfe583e5c09aadd9474da55137f), kmod-mii
@@ -6116,6 +6128,18 @@ Size: 5526
 SHA256sum: f83e5911a93381879ca862fc532a29d599830fe9002a055714bfd271d026636d
 Description:  Support for NVMEM(Non Volatile Memory) devices like EEPROM, EFUSES, etc.
 
+Package: kmod-oaf
+Version: 4.9.243+5.0-1
+Depends: kernel (=4.9.243-1-2b8f9dfe583e5c09aadd9474da55137f), kmod-ipt-conntrack
+Source: feeds/OpenAppFilter/oaf
+Section: Derry Apps
+Architecture: mips_24kc
+Installed-Size: 23426
+Filename: kmod-oaf_4.9.243+5.0-1_mips_24kc.ipk
+Size: 24077
+SHA256sum: 3519019386389e455fda4fe50256360e3da251aea7426ea350bfe2500e20342d
+Description:  open appfilter kernel module 
+
 Package: kmod-of-mdio
 Version: 4.9.243-1
 Depends: kernel (=4.9.243-1-2b8f9dfe583e5c09aadd9474da55137f), kmod-libphy
@@ -9862,4 +9886,43 @@ Filename: kmod-zram_4.9.243-1_mips_24kc.ipk
 Size: 19058
 SHA256sum: e76ca6eb587781e198ce4d93c3a45110c3c8a8b0f4ae07c5d3cbcb1686c3ba11
 Description:  Compressed RAM block device support
+
+Package: luci-app-adguardhome
+Version: 1.8-20200824
+Depends: libc, wget
+Source: package/luci-app-adguardhome
+Section: luci
+Architecture: all
+Installed-Size: 90908
+Filename: luci-app-adguardhome_1.8-20200824_all.ipk
+Size: 91984
+SHA256sum: 29f3a6bd2afd41b65a3dc187a74b62621f7bf4b98ab27e3e20cf03b1d00261ea
+Description:  LuCI support for adguardhome
+
+Package: luci-app-oaf
+Version: 5.0-1
+Depends: libc, kmod-oaf, appfilter
+Source: feeds/OpenAppFilter/luci-app-oaf
+Section: luci
+Architecture: all
+Installed-Size: 268446
+Filename: luci-app-oaf_5.0-1_all.ipk
+Size: 269366
+SHA256sum: f0f6425c0f22b05c95e477c64b970180114f3bb476e997c49fd562ce2f812356
+Description:  Open App Filter Module
+
+Package: zerotier_1.6.2
+Version: 1.6.2-2
+Depends: libc, libpthread, libstdcpp, kmod-tun, ip, libminiupnpc, libnatpmp
+Source: package/zerotier_1.6.2
+License: BSL 1.1
+LicenseFiles: LICENSE.txt
+Section: net
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: mips_24kc
+Installed-Size: 410425
+Filename: zerotier_1.6.2_1.6.2-2_mips_24kc.ipk
+Size: 410174
+SHA256sum: b03c9e2154c48cd032359ba563be532d0b1b2091d4d7fe5539e2f6f05434cf54
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
 
