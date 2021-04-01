@@ -5,6 +5,30 @@ Source: feeds/OpenAppFilter/open-app-filter
 Section: Derry Apps
 Architecture: mips_24kc
 Installed-Size: 13208
+Filename: OpenAppFilter/appfilter_5.0-1_mips_24kc.ipk
+Size: 13906
+SHA256sum: cf4fa1ee457b40783ce15faadeb3f7ddb3c4691d4ed0c8b440c464c78c9ba680
+Description:  open appfilter app
+
+Package: luci-app-oaf
+Version: 5.0-1
+Depends: libc, kmod-oaf, appfilter
+Source: feeds/OpenAppFilter/luci-app-oaf
+Section: luci
+Architecture: all
+Installed-Size: 268446
+Filename: OpenAppFilter/luci-app-oaf_5.0-1_all.ipk
+Size: 269366
+SHA256sum: f0f6425c0f22b05c95e477c64b970180114f3bb476e997c49fd562ce2f812356
+Description:  Open App Filter Module
+
+Package: appfilter
+Version: 5.0-1
+Depends: libc, libubox, libubus, libuci, libpthread, libjson-c, libblobmsg-json
+Source: feeds/OpenAppFilter/open-app-filter
+Section: Derry Apps
+Architecture: mips_24kc
+Installed-Size: 13208
 Filename: appfilter_5.0-1_mips_24kc.ipk
 Size: 13906
 SHA256sum: cf4fa1ee457b40783ce15faadeb3f7ddb3c4691d4ed0c8b440c464c78c9ba680
@@ -9911,6 +9935,33 @@ Size: 269366
 SHA256sum: f0f6425c0f22b05c95e477c64b970180114f3bb476e997c49fd562ce2f812356
 Description:  Open App Filter Module
 
+Package: luci-app-ttyd
+Version: 1.0-3
+Depends: libc, ttyd
+Source: package/luci-app-ttyd
+Section: luci
+Architecture: all
+Installed-Size: 692
+Filename: luci-app-ttyd_1.0-3_all.ipk
+Size: 1348
+SHA256sum: 3a153913aa20247247fd8131be5046c0f541d1440eed8555dd213445196abf35
+Description:  LuCI support for ttyd
+
+Package: ttyd
+Version: 1.4.0-1
+Depends: libc, libopenssl, libjson-c, libpthread, libwebsockets-full
+Source: feeds/packages/utils/ttyd
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Shuanglei Tao <tsl0922@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 146024
+Filename: ttyd_1.4.0-1_mips_24kc.ipk
+Size: 146384
+SHA256sum: 4e059b51bc2b807a75046bca06be4eeaf45d165b5499784ca6c44a13d4f7f4d1
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
 Package: zerotier_1.6.2
 Version: 1.6.2-2
 Depends: libc, libpthread, libstdcpp, kmod-tun, ip, libminiupnpc, libnatpmp
@@ -9920,9 +9971,9 @@ LicenseFiles: LICENSE.txt
 Section: net
 Maintainer: Moritz Warning <moritzwarning@web.de>
 Architecture: mips_24kc
-Installed-Size: 410425
+Installed-Size: 410415
 Filename: zerotier_1.6.2_1.6.2-2_mips_24kc.ipk
-Size: 410174
-SHA256sum: b03c9e2154c48cd032359ba563be532d0b1b2091d4d7fe5539e2f6f05434cf54
+Size: 410140
+SHA256sum: 0d793d429d05d1bedbdbd573508d3690c4161fb981432d94a21246ba368f5eff
 Description:  ZeroTier creates a global provider-independent virtual private cloud network.
 
