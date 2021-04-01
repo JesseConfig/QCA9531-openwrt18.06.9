@@ -3780,7 +3780,8 @@ CONFIG_PACKAGE_kmod-oaf=m
 # CONFIG_PACKAGE_libbfd is not set
 # CONFIG_PACKAGE_libbsd is not set
 # CONFIG_PACKAGE_libcanfestival is not set
-# CONFIG_PACKAGE_libcap is not set
+CONFIG_PACKAGE_libcap=m
+# CONFIG_PACKAGE_libcap-bin is not set
 # CONFIG_PACKAGE_libcares is not set
 # CONFIG_PACKAGE_libcharset is not set
 # CONFIG_PACKAGE_libcoap is not set
@@ -3992,14 +3993,14 @@ CONFIG_PACKAGE_libpcre=m
 # CONFIG_PACKAGE_libustream-mbedtls is not set
 # CONFIG_PACKAGE_libustream-openssl is not set
 # CONFIG_PACKAGE_libustream-wolfssl is not set
-# CONFIG_PACKAGE_libuv is not set
+CONFIG_PACKAGE_libuv=m
 # CONFIG_PACKAGE_libuvc is not set
 # CONFIG_PACKAGE_libv4l is not set
 # CONFIG_PACKAGE_libvorbis is not set
 # CONFIG_PACKAGE_libvorbisidec is not set
 # CONFIG_PACKAGE_libvpx is not set
 # CONFIG_PACKAGE_libwebcam is not set
-# CONFIG_PACKAGE_libwebsockets-full is not set
+CONFIG_PACKAGE_libwebsockets-full=m
 # CONFIG_PACKAGE_libwebsockets-mbedtls is not set
 # CONFIG_PACKAGE_libwebsockets-openssl is not set
 # CONFIG_PACKAGE_libwrap is not set
@@ -4128,6 +4129,7 @@ CONFIG_PACKAGE_luci-app-oaf=m
 # CONFIG_PACKAGE_luci-app-tinyproxy is not set
 # CONFIG_PACKAGE_luci-app-transmission is not set
 # CONFIG_PACKAGE_luci-app-travelmate is not set
+CONFIG_PACKAGE_luci-app-ttyd=m
 # CONFIG_PACKAGE_luci-app-udpxy is not set
 # CONFIG_PACKAGE_luci-app-uhttpd is not set
 # CONFIG_PACKAGE_luci-app-unbound is not set
@@ -4138,6 +4140,7 @@ CONFIG_PACKAGE_luci-app-oaf=m
 # CONFIG_PACKAGE_luci-app-wifischedule is not set
 # CONFIG_PACKAGE_luci-app-wireguard is not set
 # CONFIG_PACKAGE_luci-app-wol is not set
+CONFIG_PACKAGE_luci-app-zerotier=m
 
 #
 # 4. Themes
@@ -4230,6 +4233,8 @@ CONFIG_PACKAGE_luci-app-oaf=m
 # CONFIG_PACKAGE_luci-i18n-firewall-zh-cn is not set
 # CONFIG_PACKAGE_luci-i18n-firewall-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-oaf-zh-cn is not set
+# CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn is not set
+# CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn is not set
 
 #
 # Mail
@@ -4319,6 +4324,7 @@ CONFIG_PACKAGE_luci-app-oaf=m
 #
 # CONFIG_PACKAGE_coova-chilli is not set
 # CONFIG_PACKAGE_nodogsplash is not set
+CONFIG_PACKAGE_opennds=m
 # CONFIG_PACKAGE_wifidog is not set
 # CONFIG_PACKAGE_wifidog-ng-mbedtls is not set
 # CONFIG_PACKAGE_wifidog-ng-nossl is not set
@@ -4837,8 +4843,20 @@ CONFIG_PACKAGE_ip-tiny=m
 # CONFIG_PACKAGE_vpnc-scripts is not set
 # CONFIG_PACKAGE_wireguard is not set
 # CONFIG_PACKAGE_xl2tpd is not set
-# CONFIG_PACKAGE_zerotier is not set
+CONFIG_PACKAGE_zerotier=m
+
+#
+# Configuration
+#
+# CONFIG_ZEROTIER_ENABLE_DEBUG is not set
+# CONFIG_ZEROTIER_ENABLE_SELFTEST is not set
 CONFIG_PACKAGE_zerotier_1.6.2=m
+
+#
+# Configuration_1.6.2
+#
+# CONFIG_ZEROTIER_1.6.2_ENABLE_DEBUG is not set
+# CONFIG_ZEROTIER_1.6.2_ENABLE_SELFTEST is not set
 
 #
 # Version Control Systems
@@ -5330,7 +5348,7 @@ CONFIG_PACKAGE_zerotier_1.6.2=m
 # CONFIG_PACKAGE_setterm is not set
 # CONFIG_PACKAGE_tio is not set
 # CONFIG_PACKAGE_tmux is not set
-# CONFIG_PACKAGE_ttyd is not set
+CONFIG_PACKAGE_ttyd=m
 # CONFIG_PACKAGE_wall is not set
 
 #
